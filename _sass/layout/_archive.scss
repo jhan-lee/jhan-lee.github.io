@@ -66,6 +66,26 @@
   }
 }
 
+.archive__item-publication {
+  margin: 0.35em 0 0.6em;
+  font-family: $sans-serif-narrow;
+  font-size: 0.625em;
+  line-height: 1.45;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.archive__item--publication:hover .archive__item-title {
+  text-decoration: none;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
