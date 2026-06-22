@@ -16,8 +16,10 @@ hide_title: true
   {% assign category_posts = site.publications | where: "pub_category", pub_category[0] %}
   {% if category_posts.size > 0 %}
     <h1>{{ pub_category[1].title }}</h1>
+    <div class="publication-category">
     {% for post in category_posts reversed %}
       {% include archive-single.html %}
     {% endfor %}
+    </div>
   {% endif %}
 {% endfor %}
