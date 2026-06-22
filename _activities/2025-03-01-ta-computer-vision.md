@@ -5,7 +5,7 @@ permalink: /activity/2025-ta-computer-vision
 date: 2025-03-01
 cv_category: academic_activities
 line: "TA of Introduction to Computer Vision(Spring 2025) at Pusan National University."
-period: "Mar. - Jun. 2025."
+period: "Mar. 2025 – Jun. 2025."
 bold:
   - "TA"
 bold_italic:
