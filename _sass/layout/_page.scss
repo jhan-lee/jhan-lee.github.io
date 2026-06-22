@@ -96,6 +96,18 @@
     font-size: $type-size-6;
   }
 
+  ul.education {
+    > li {
+      margin-bottom: 1em;
+
+      > ul {
+        margin-top: 0.35em;
+        margin-left: 1.5em;
+        list-style-type: circle;
+      }
+    }
+  }
+
   .small {
     font-size: $type-size-6;
   }

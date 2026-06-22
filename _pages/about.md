@@ -18,13 +18,21 @@ Research Interests
 
 Education
 =========
-**M.S.** in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea  
-Advisor: **Sangryul Jeon (PNU CVLab)**  
-Period: Mar. 2025 - Present
 
-**B.S.** in Dept. of Electronic Engineering, Pukyong National University, Busan, South Korea  
-Advisor: **Hanhoon Park (IVC Lab)**  
-Period: Mar. 2018 - Feb. 2022.
+<ul class="education">
+  <li><strong><em>M.S.</em></strong> in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea
+    <ul>
+      <li>Advisor: <strong>Sangryul Jeon (PNU CVLab)</strong></li>
+      <li>Period: Mar. 2025 - <em>Present</em></li>
+    </ul>
+  </li>
+  <li><strong><em>B.S.</em></strong> in Dept. of Electronic Engineering, Pukyong National University, Busan, South Korea
+    <ul>
+      <li>Advisor: <strong>Hanhoon Park (IVC Lab)</strong></li>
+      <li>Period: Mar. 2018 - Feb. 2022.</li>
+    </ul>
+  </li>
+</ul>
 
 Work Experience
 ===============
