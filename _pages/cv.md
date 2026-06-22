@@ -14,11 +14,11 @@ redirect_from:
 {% for category in site.cv_category %}
 <h1>{{ category[1].title }}</h1>
 {% if category[0] == 'achievements' %}
-<div class="achievements">
+<ul class="achievements">
   {% for post in site.achievements reversed %}
     {% include achievement-entry.html post=post %}
   {% endfor %}
-</div>
+</ul>
 {% else %}
 <ul>
   {% for post in site.portfolio %}
