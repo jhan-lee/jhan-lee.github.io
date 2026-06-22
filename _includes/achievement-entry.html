@@ -1,3 +1,3 @@
 {% assign post = include.post %}
 
-<li class="achievement-entry"><strong>{{ post.award }}</strong> {{ post.detail }}</li>
+<li class="achievement-entry"><strong>{{ post.award }}</strong> {{ post.detail }}{% if post.role != blank %} <span class="achievement-entry__role">({{ post.role }})</span>{% endif %}</li>

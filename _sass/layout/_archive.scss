@@ -103,6 +103,11 @@
   }
 }
 
+.achievement-entry__role {
+  font-size: 0.87em;
+  font-weight: normal;
+}
+
 .activity-entry__details {
   margin: 0.15em 0 0 1em;
   padding: 0;
@@ -156,6 +161,11 @@
     font-size: 1.15em;
     font-weight: bold;
     line-height: 1.35;
+  }
+
+  .project__role {
+    font-size: 0.87em;
+    font-weight: normal;
   }
 
   .project__organization,

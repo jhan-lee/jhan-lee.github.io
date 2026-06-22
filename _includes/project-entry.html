@@ -27,6 +27,6 @@
   {% assign org_text = post.organization %}
 {% endif %}
 
-<div class="project__title">{{ post.title }}</div>
+<div class="project__title">{{ post.title }}{% if post.role != blank %} <span class="project__role">({{ post.role }})</span>{% endif %}</div>
 <p class="project__organization">Institution: {{ org_text }}</p>
-<p class="project__period">Period: {{ period_text }}{% if post.role != blank %} ({{ post.role }}){% endif %}</p>
+<p class="project__period">Period: {{ period_text }}</p>
