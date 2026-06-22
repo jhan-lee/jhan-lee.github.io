@@ -75,12 +75,17 @@
   margin-left: 1.25em;
 }
 
-.cv-list,
-.achievements {
+.activity-bullet-list {
   margin: 0.25em 0 1.5em 1.25em;
   padding-left: 1.5em;
   list-style-type: disc;
   list-style-position: outside;
+
+  > li {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
+  }
 }
 
 .achievement-entry,

@@ -125,7 +125,10 @@
     list-style-type: disc;
     list-style-position: outside;
 
-    li {
+    > li {
+      display: list-item;
+      list-style-type: disc;
+      list-style-position: outside;
       margin-bottom: 0.25em;
       font-size: 0.9em;
       line-height: 1.5;
@@ -216,7 +219,10 @@
     list-style-type: disc;
     list-style-position: outside;
 
-    li {
+    > li {
+      display: list-item;
+      list-style-type: disc;
+      list-style-position: outside;
       font-size: 0.9em;
       line-height: 1.5;
 
