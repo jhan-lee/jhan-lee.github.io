@@ -83,6 +83,13 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
+# Publication categories (used on the Publications page)
+publication_category:
+  domestic:
+    title: 'Domestic'
+  international:
+    title: 'International'
+
 # CV categories (used on the CV page only; not shown on Publications or Projects)
 cv_category:
   achievements:

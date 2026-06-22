@@ -12,6 +12,12 @@ hide_title: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% for pub_category in site.publication_category %}
+  {% assign category_posts = site.publications | where: "pub_category", pub_category[0] %}
+  {% if category_posts.size > 0 %}
+    <h1>{{ pub_category[1].title }}</h1>
+    {% for post in category_posts reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
