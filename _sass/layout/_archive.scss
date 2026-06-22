@@ -67,18 +67,31 @@
 }
 
 .archive__item-publication {
-  margin: 0.35em 0 0.6em;
+  margin: 0 0 1.25em;
   font-family: $sans-serif-narrow;
-  font-size: 0.625em;
-  line-height: 1.45;
+  font-size: 1em;
+  line-height: 1.5;
 
-  a {
-    color: inherit;
-    text-decoration: none;
+  .publication__title {
+    margin: 0 0 0.15em;
+    font-size: 1.5em;
+    line-height: 1.35;
 
-    &:hover {
+    a {
+      color: var(--global-link-color);
       text-decoration: underline;
+
+      &:hover {
+        color: var(--global-link-color-hover);
+      }
     }
+  }
+
+  .publication__authors,
+  .publication__venue {
+    margin: 0.15em 0 0;
+    font-size: 1em;
+    line-height: 1.45;
   }
 }
 

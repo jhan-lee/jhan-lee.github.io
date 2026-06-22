@@ -27,13 +27,7 @@
     {% endif %}
 
     {% if post.collection == 'publications' %}
-      <p class="archive__item-publication" itemprop="description">
-        {% if post.paperurl or post.link %}
-          <a href="{{ post.paperurl | default: post.link }}">{{ post.citation }}</a>
-        {% else %}
-          {{ post.citation }}
-        {% endif %}
-      </p>
+      <div class="archive__item-publication" itemprop="description">{% include publication-citation.html post=post %}</div>
     {% else %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}

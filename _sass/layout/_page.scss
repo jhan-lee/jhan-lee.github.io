@@ -168,6 +168,10 @@
     box-sizing: border-box;
     overflow: hidden;
 
+    html[data-theme="dark"] & {
+      border-color: #fff;
+    }
+
     &--placeholder {
       border: none;
       background-color: transparent;

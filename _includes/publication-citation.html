@@ -1,0 +1,22 @@
+{% include base_path %}
+{% assign post = include.post %}
+{% assign paper_link = post.paperurl | default: post.link %}
+{% if paper_link %}
+  {% if paper_link contains '://' %}
+    {% assign paper_href = paper_link %}
+  {% else %}
+    {% assign paper_href = paper_link | prepend: base_path %}
+  {% endif %}
+{% endif %}
+{% capture author_bold %}<strong>{{ site.author.name }}</strong>{% endcapture %}
+{% assign authors_html = post.authors | replace: site.author.name, author_bold %}
+
+<div class="publication__title">
+  {% if paper_link %}
+    <a href="{{ paper_href }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+  {% else %}
+    {{ post.title }}
+  {% endif %}
+</div>
+<p class="publication__authors">{{ authors_html }}</p>
+<p class="publication__venue">{{ post.venue }}, {{ post.date | date: "%b" }}. {{ post.date | date: "%Y" }}</p>

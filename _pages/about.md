@@ -33,7 +33,7 @@ Education
       <p class="education-entry__degree"><strong><em>M.S.</em></strong> in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea</p>
       <ul class="education-entry__details">
         <li>Advisor: <strong>Sangryul Jeon (PNU CVLab)</strong></li>
-        <li>Period: Mar. 2025 - Present</li>
+        <li>Period: Mar. 2025 - <em>Present</em></li>
       </ul>
     </div>
   </div>
