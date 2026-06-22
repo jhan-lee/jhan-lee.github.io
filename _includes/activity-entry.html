@@ -1,0 +1,14 @@
+{% assign post = include.post %}
+{% assign line_html = post.line %}
+{% if post.bold_italic %}
+  {% for part in post.bold_italic %}
+    {% capture styled_part %}<strong><em>{{ part }}</em></strong>{% endcapture %}
+    {% assign line_html = line_html | replace: part, styled_part %}
+  {% endfor %}
+{% endif %}
+{% for part in post.bold %}
+  {% capture bold_part %}<strong>{{ part }}</strong>{% endcapture %}
+  {% assign line_html = line_html | replace: part, bold_part %}
+{% endfor %}
+
+<li class="activity-entry">{{ line_html }}</li>

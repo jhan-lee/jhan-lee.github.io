@@ -14,21 +14,16 @@ redirect_from:
 {% for category in site.cv_category %}
 <h1>{{ category[1].title }}</h1>
 {% if category[0] == 'achievements' %}
-<ul class="achievements">
+<ul class="cv-list">
   {% for post in site.achievements reversed %}
     {% include achievement-entry.html post=post %}
   {% endfor %}
 </ul>
 {% else %}
-<ul>
-  {% for post in site.portfolio %}
+<ul class="cv-list">
+  {% for post in site.activities reversed %}
     {% if post.cv_category == category[0] %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}
-  {% for post in site.teaching %}
-    {% if post.cv_category == category[0] %}
-      {% include archive-single-cv.html %}
+      {% include activity-entry.html post=post %}
     {% endif %}
   {% endfor %}
 </ul>

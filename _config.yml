@@ -94,10 +94,10 @@ publication_category:
 cv_category:
   achievements:
     title: 'Achievements'
-  teaching_experience:
-    title: 'Teaching Experience'
-  activities:
-    title: 'Activities'
+  academic_activities:
+    title: 'Academic activities'
+  non_academic_activities:
+    title: 'Non-academic activities'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -237,6 +237,8 @@ collections:
   portfolio:
     output: false
   achievements:
+    output: false
+  activities:
     output: false
   talks:
     output: true
