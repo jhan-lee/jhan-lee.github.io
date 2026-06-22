@@ -1,0 +1,9 @@
+---
+title: "Analysis of Generalization Performance of Xception Model for Fake Image Identification"
+collection: publications
+permalink: /publication/2021-12-01-xception-fake-image-kicsp
+date: 2021-12-01
+venue: 'Proc. KICSP, Jeju, South Korea'
+citation: 'Jeonghan Lee, Hanhoon Park, &quot;Analysis of Generalization Performance of Xception Model for Fake Image Identification,&quot; in Proc. Conference of Korea Institute of Convergence Signal Processing (KICSP), Jeju, South Korea, pp. 31-33, Dec. 2021.'
+cv_category: achievements
+---
