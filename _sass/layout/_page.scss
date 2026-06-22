@@ -12,7 +12,8 @@
   animation-delay: 0.35s;
 
   @include breakpoint($large) {
-    padding-right: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 0;
   }
 
   @include breakpoint($x-large) {
@@ -23,8 +24,8 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(0.5 of 12);
+    @include prefix(0.25 of 12);
+    @include suffix(0 of 12);
   }
 
   .page__inner-wrap {
@@ -107,12 +108,16 @@
     padding: 0;
   }
 
+  .education {
+    margin-bottom: 1.5em;
+  }
+
   .education-entry,
   .work-experience-entry {
     display: flex;
     align-items: flex-start;
-    column-gap: 0.85em;
-    margin-bottom: 1.25em;
+    column-gap: 0.65em;
+    margin-bottom: 1.875em;
 
     &:last-child {
       margin-bottom: 0;
@@ -163,7 +168,7 @@
 
   .education-entry__details,
   .work-experience-entry__details {
-    margin: 0.35em 0 0 1.5em;
+    margin: 0.525em 0 0 1.5em;
     padding: 0;
     list-style-type: circle;
   }

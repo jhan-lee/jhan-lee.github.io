@@ -28,7 +28,7 @@ Education
       <p class="education-entry__degree"><strong><em>M.S.</em></strong> in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea</p>
       <ul class="education-entry__details">
         <li>Advisor: <strong>Sangryul Jeon (PNU CVLab)</strong></li>
-        <li>Period: Mar. 2025 - <em>Present</em></li>
+        <li>Period: Mar. 2025 - Present</li>
       </ul>
     </div>
   </div>
@@ -55,10 +55,10 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/pnu_symbol.png' | relative_url }}" alt="Pusan National University logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title"><strong><em>Research Intern at PNU CVLab, Pusan National University, Busan, South Korea.</em></strong></p>
+      <p class="work-experience-entry__title"><strong><em>Research Intern at PNU CVLab, Pusan National University</em></strong>, Busan, South Korea.</p>
       <ul class="work-experience-entry__details">
-        <li><strong>Advisor:</strong> Prof. Sangryul Jeon</li>
-        <li>Period: <em>Oct. 2024 - Feb. 2025.</em></li>
+        <li>Advisor: <strong>Prof. Sangryul Jeon</strong></li>
+        <li>Period: Oct. 2024 - Feb. 2025.</li>
       </ul>
     </div>
   </div>
@@ -67,10 +67,10 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/uob_symbol.png' | relative_url }}" alt="University of Birmingham logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title"><strong><em>Research Intern at Intelligent Robotics Laboratory, University of Birmingham, Birmingham, UK.</em></strong></p>
+      <p class="work-experience-entry__title"><strong><em>Research Intern at Intelligent Robotics Laboratory, University of Birmingham</em></strong>, Birmingham, UK.</p>
       <ul class="work-experience-entry__details">
-        <li><strong>Host:</strong> Prof. Hyung-Jin Chang</li>
-        <li>Period: <em>Jul. 2024 - Aug. 2024.</em></li>
+        <li>Host: <strong>Prof. Hyung-Jin Chang</strong></li>
+        <li>Period: Jul. 2024 - Aug. 2024.</li>
       </ul>
     </div>
   </div>
@@ -79,10 +79,10 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/navy_symbol.png' | relative_url }}" alt="Republic of Korea Navy logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title"><em>Get discharged as</em> <strong><em>Naval Officer (LTJG) at Naval Education and Training Command, South Korea.</em></strong></p>
+      <p class="work-experience-entry__title"><em>Get discharged as</em> <strong><em>Naval Officer (LTJG) at Naval Education and Training Command</em></strong>, South Korea.</p>
       <ul class="work-experience-entry__details">
-        <li><strong>MOS:</strong> Signal (N-ROTC 67th)</li>
-        <li>Period: <em>Jan. 2020 - Feb. 2024.</em></li>
+        <li>MOS: <strong>Signal (N-ROTC 67th)</strong></li>
+        <li>Period: Jan. 2020 - Feb. 2024.</li>
       </ul>
     </div>
   </div>
