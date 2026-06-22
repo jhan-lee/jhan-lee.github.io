@@ -48,4 +48,42 @@ Education
 
 Work Experience
 ===============
-<!-- TODO -->
+
+<div class="work-experience">
+  <div class="work-experience-entry">
+    <div class="work-experience-entry__logo-wrap">
+      <img class="work-experience-entry__logo" src="{{ '/images/pnu_symbol.png' | relative_url }}" alt="Pusan National University logo" />
+    </div>
+    <div class="work-experience-entry__content">
+      <p class="work-experience-entry__title"><strong><em>Research Intern at PNU CVLab, Pusan National University, Busan, South Korea.</em></strong></p>
+      <ul class="work-experience-entry__details">
+        <li><strong>Advisor:</strong> Prof. Sangryul Jeon</li>
+        <li>Period: <em>Oct. 2024 - Feb. 2025.</em></li>
+      </ul>
+    </div>
+  </div>
+  <div class="work-experience-entry">
+    <div class="work-experience-entry__logo-wrap">
+      <img class="work-experience-entry__logo" src="{{ '/images/uob_symbol.png' | relative_url }}" alt="University of Birmingham logo" />
+    </div>
+    <div class="work-experience-entry__content">
+      <p class="work-experience-entry__title"><strong><em>Research Intern at Intelligent Robotics Laboratory, University of Birmingham, Birmingham, UK.</em></strong></p>
+      <ul class="work-experience-entry__details">
+        <li><strong>Host:</strong> Prof. Hyung-Jin Chang</li>
+        <li>Period: <em>Jul. 2024 - Aug. 2024.</em></li>
+      </ul>
+    </div>
+  </div>
+  <div class="work-experience-entry">
+    <div class="work-experience-entry__logo-wrap">
+      <img class="work-experience-entry__logo" src="{{ '/images/navy_symbol.png' | relative_url }}" alt="Republic of Korea Navy logo" />
+    </div>
+    <div class="work-experience-entry__content">
+      <p class="work-experience-entry__title"><em>Get discharged as</em> <strong><em>Naval Officer (LTJG) at Naval Education and Training Command, South Korea.</em></strong></p>
+      <ul class="work-experience-entry__details">
+        <li><strong>MOS:</strong> Signal (N-ROTC 67th)</li>
+        <li>Period: <em>Jan. 2020 - Feb. 2024.</em></li>
+      </ul>
+    </div>
+  </div>
+</div>

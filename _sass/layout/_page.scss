@@ -100,13 +100,15 @@
     font-size: $type-size-6;
   }
 
-  .education {
+  .education,
+  .work-experience {
     --education-logo-size: 5.2rem;
     margin: 0;
     padding: 0;
   }
 
-  .education-entry {
+  .education-entry,
+  .work-experience-entry {
     display: flex;
     align-items: flex-start;
     column-gap: 0.85em;
@@ -117,7 +119,8 @@
     }
   }
 
-  .education-entry__logo-wrap {
+  .education-entry__logo-wrap,
+  .work-experience-entry__logo-wrap {
     flex: 0 0 var(--education-logo-size);
     width: var(--education-logo-size);
     height: var(--education-logo-size);
@@ -128,9 +131,16 @@
     background-color: #fff;
     box-sizing: border-box;
     overflow: hidden;
+
+    &--placeholder {
+      border: none;
+      background-color: transparent;
+      padding: 0;
+    }
   }
 
-  .education-entry__logo {
+  .education-entry__logo,
+  .work-experience-entry__logo {
     display: block;
     width: 100%;
     height: 100%;
@@ -139,17 +149,20 @@
     object-fit: contain;
   }
 
-  .education-entry__content {
+  .education-entry__content,
+  .work-experience-entry__content {
     flex: 1;
     min-width: 0;
   }
 
-  .education-entry__degree {
+  .education-entry__degree,
+  .work-experience-entry__title {
     margin: 0;
     line-height: 1.5;
   }
 
-  .education-entry__details {
+  .education-entry__details,
+  .work-experience-entry__details {
     margin: 0.35em 0 0 1.5em;
     padding: 0;
     list-style-type: circle;
