@@ -13,12 +13,18 @@ I am an M.S. student at **[Pusan National University](https://www.pusan.ac.kr/en
 
 Research Interests
 ==================
-* Computer Vision and Machine Learning (Deep Learning)
-* Open-Vocabulary Segmentation
+* **Computer Vision and Machine Learning (Deep Learning)**
+* **Open-Vocabulary Segmentation**
 
 Education
 =========
-<!-- TODO -->
+**M.S.** in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea  
+Advisor: **Sangryul Jeon (PNU CVLab)**  
+Period: Mar. 2025 - Present
+
+**B.S.** in Dept. of Electronic Engineering, Pukyong National University, Busan, South Korea  
+Advisor: **Hanhoon Park (IVC Lab)**  
+Period: Mar. 2018 - Feb. 2022.
 
 Work Experience
 ===============
