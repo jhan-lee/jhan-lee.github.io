@@ -123,8 +123,11 @@
     height: var(--education-logo-size);
     min-width: var(--education-logo-size);
     min-height: var(--education-logo-size);
+    padding: 2px;
     border: 1px solid #000;
+    background-color: #fff;
     box-sizing: border-box;
+    overflow: hidden;
   }
 
   .education-entry__logo {
