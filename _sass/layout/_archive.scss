@@ -80,45 +80,11 @@
 }
 
 .achievement-entry {
-  display: flex;
-  align-items: flex-start;
-  column-gap: 1em;
-  margin-bottom: 1.25em;
+  margin-bottom: 0.65em;
 
   &:last-child {
     margin-bottom: 0;
   }
-
-  @include breakpoint(max-width $small) {
-    flex-direction: column;
-  }
-}
-
-.achievement-entry__image-wrap {
-  flex: 0 0 28%;
-  max-width: 14.67rem;
-  aspect-ratio: 16 / 9;
-  padding: 2px;
-  border: 1px solid #000;
-  background-color: #fff;
-  box-sizing: border-box;
-  overflow: hidden;
-
-  html[data-theme="dark"] & {
-    border-color: #fff;
-  }
-}
-
-.achievement-entry__image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.achievement-entry__content {
-  flex: 1;
-  min-width: 0;
 }
 
 .achievement-entry__title {

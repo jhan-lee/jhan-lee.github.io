@@ -1,11 +1,5 @@
-{% include base_path %}
 {% assign post = include.post %}
 
 <div class="achievement-entry">
-  <div class="achievement-entry__image-wrap">
-    <img class="achievement-entry__image" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" />
-  </div>
-  <div class="achievement-entry__content">
-    <p class="achievement-entry__title"><strong>{{ post.award }}</strong> {{ post.detail }}</p>
-  </div>
+  <p class="achievement-entry__title"><strong>{{ post.award }}</strong> {{ post.detail }}</p>
 </div>
