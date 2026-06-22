@@ -12,7 +12,7 @@ Bio
 
 <div class="bio-block" markdown="1">
 
-I am an M.S. student at **[Pusan National University](https://www.pusan.ac.kr/eng/Main.do)**, affiliated with the **[Graduate School of Artificial Intelligence](https://ihis.pusan.ac.kr/sites/ai/index.do)** and advised by Prof. *Sangryul Jeon* in **[PNU CVLab](https://pnucvlab.github.io/)**. My research interests broadly lie in Computer Vision and Machine Learning.
+I am an **M.S. student** at **[Pusan National University](https://www.pusan.ac.kr/eng/Main.do)**, affiliated with the **[Graduate School of Artificial Intelligence](https://ihis.pusan.ac.kr/sites/ai/index.do)** and advised by Prof. *Sangryul Jeon* in **[PNU CVLab](https://pnucvlab.github.io/)**. My research interests broadly lie in Computer Vision and Machine Learning.
 
 </div>
 

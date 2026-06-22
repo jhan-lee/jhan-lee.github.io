@@ -11,7 +11,7 @@ redirect_from:
 {% include base_path %}
 
 {% for category in site.cv_category %}
-<h2>{{ category[1].title }}</h2>
+<h1>{{ category[1].title }}</h1>
 <ul>
   {% for post in site.publications reversed %}
     {% if post.cv_category == category[0] %}
