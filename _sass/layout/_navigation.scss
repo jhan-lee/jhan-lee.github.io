@@ -193,6 +193,7 @@
     position: absolute;
     height: 2.5rem;
     right: 0;
+    top: 0;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
@@ -222,15 +223,6 @@
         a {
           margin-right: 0;
         }
-      }
-    }
-
-    #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
       }
     }
 
