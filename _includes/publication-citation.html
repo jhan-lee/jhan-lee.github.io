@@ -24,9 +24,6 @@
 {% else %}
   {% capture venue_text %}{{ post.venue }} (<strong>{{ post.venue_abbr }}</strong>){% endcapture %}
 {% endif %}
-{% if post.venue_location != blank %}
-  {% assign venue_text = venue_text | append: ', ' | append: post.venue_location %}
-{% endif %}
 {% assign month = post.date | date: "%b" %}
 {% assign year = post.date | date: "%Y" %}
 {% if month == "May" %}
