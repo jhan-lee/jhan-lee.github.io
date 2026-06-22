@@ -1,10 +1,24 @@
 ---
 permalink: /
-title: "About"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Placeholder for Jeonghan Lee's introduction.
+Bio
+======
+<!-- TODO: 기존 CV/구글 사이트에서 이식 -->
+
+Research Interests
+==================
+<!-- TODO: 기존 CV/구글 사이트에서 이식 -->
+
+Education
+=========
+<!-- TODO -->
+
+Work Experience
+===============
+<!-- TODO -->
