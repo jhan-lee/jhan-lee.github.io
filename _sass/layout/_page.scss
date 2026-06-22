@@ -122,9 +122,17 @@
   #research-interests + ul {
     margin: 0.25em 0 1.5em;
     padding-left: 1.5em;
+    list-style-type: disc;
+    list-style-position: outside;
 
     li {
       margin-bottom: 0.25em;
+      font-size: 0.9em;
+      line-height: 1.5;
+
+      &::marker {
+        font-size: 0.85em;
+      }
 
       &:last-child {
         margin-bottom: 0;
@@ -206,6 +214,16 @@
     margin: 0.525em 0 0 1.5em;
     padding: 0;
     list-style-type: disc;
+    list-style-position: outside;
+
+    li {
+      font-size: 0.9em;
+      line-height: 1.5;
+
+      &::marker {
+        font-size: 0.85em;
+      }
+    }
   }
 
   .small {
