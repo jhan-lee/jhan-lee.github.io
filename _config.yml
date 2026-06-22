@@ -83,14 +83,14 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# CV categories (used on the CV page only; not shown on Publications or Projects)
+cv_category:
+  achievements:
+    title: 'Achievements'
+  teaching_experience:
+    title: 'Teaching Experience'
+  activities:
+    title: 'Activities'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
