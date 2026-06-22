@@ -75,12 +75,15 @@
   margin-left: 1.25em;
 }
 
-.archive__item-publication {
+.archive__item-publication,
+.archive__item-project {
   margin: 0 0 1.25em;
   font-family: $sans-serif-narrow;
   font-size: 1em;
   line-height: 1.5;
+}
 
+.archive__item-publication {
   .publication__title {
     margin: 0 0 0.15em;
     font-size: 1.15em;
@@ -99,6 +102,22 @@
 
   .publication__authors,
   .publication__venue {
+    margin: 0.15em 0 0;
+    font-size: 1em;
+    line-height: 1.45;
+  }
+}
+
+.archive__item-project {
+  .project__title {
+    margin: 0 0 0.15em;
+    font-size: 1.15em;
+    font-weight: bold;
+    line-height: 1.35;
+  }
+
+  .project__organization,
+  .project__period {
     margin: 0.15em 0 0;
     font-size: 1em;
     line-height: 1.45;

@@ -1,0 +1,32 @@
+{% assign post = include.post %}
+
+{% assign start_month = post.date | date: "%b" %}
+{% assign start_year = post.date | date: "%Y" %}
+{% if start_month == "May" %}
+  {% assign start_display = start_month | append: ' ' | append: start_year %}
+{% else %}
+  {% assign start_display = start_month | append: '. ' | append: start_year %}
+{% endif %}
+
+{% if post.date_end != blank %}
+  {% assign end_month = post.date_end | date: "%b" %}
+  {% assign end_year = post.date_end | date: "%Y" %}
+  {% if end_month == "May" %}
+    {% assign end_display = end_month | append: ' ' | append: end_year %}
+  {% else %}
+    {% assign end_display = end_month | append: '. ' | append: end_year %}
+  {% endif %}
+  {% assign period_text = start_display | append: ' - ' | append: end_display %}
+{% else %}
+  {% assign period_text = start_display | append: ' - Present' %}
+{% endif %}
+
+{% if post.org_abbr != blank %}
+  {% capture org_text %}{{ post.organization }} (<strong>{{ post.org_abbr }}</strong>){% endcapture %}
+{% else %}
+  {% assign org_text = post.organization %}
+{% endif %}
+
+<div class="project__title">{{ post.title }}</div>
+<p class="project__organization">{{ org_text }}</p>
+<p class="project__period">{{ period_text }}{% if post.role != blank %} ({{ post.role }}){% endif %}</p>
