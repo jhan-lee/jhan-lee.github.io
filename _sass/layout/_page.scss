@@ -101,6 +101,20 @@
     font-size: $type-size-6;
   }
 
+  .bio-block {
+    width: 80%;
+    margin: 0 auto 1.5em;
+    padding: 1em 1.25em;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    background-color: var(--global-thead-color);
+
+    p {
+      text-indent: $indent-var;
+      margin-bottom: 0;
+    }
+  }
+
   .education,
   .work-experience {
     --education-logo-size: 5.2rem;
