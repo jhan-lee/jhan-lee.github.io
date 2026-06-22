@@ -20,17 +20,33 @@ Education
 =========
 
 <ul class="education">
-  <li><strong><em>M.S.</em></strong> in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea
-    <ul>
-      <li>Advisor: <strong>Sangryul Jeon (PNU CVLab)</strong></li>
-      <li>Period: Mar. 2025 - <em>Present</em></li>
-    </ul>
+  <li class="education-entry">
+    <div class="education-entry__inner">
+      <div class="education-entry__logo-wrap">
+        <img class="education-entry__logo" src="/images/pnu_symbol.png" alt="Pusan National University logo" />
+      </div>
+      <div class="education-entry__body">
+        <p class="education-entry__degree"><strong><em>M.S.</em></strong> in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea</p>
+        <ul>
+          <li>Advisor: <strong>Sangryul Jeon (PNU CVLab)</strong></li>
+          <li>Period: Mar. 2025 - <em>Present</em></li>
+        </ul>
+      </div>
+    </div>
   </li>
-  <li><strong><em>B.S.</em></strong> in Dept. of Electronic Engineering, Pukyong National University, Busan, South Korea
-    <ul>
-      <li>Advisor: <strong>Hanhoon Park (IVC Lab)</strong></li>
-      <li>Period: Mar. 2018 - Feb. 2022.</li>
-    </ul>
+  <li class="education-entry">
+    <div class="education-entry__inner">
+      <div class="education-entry__logo-wrap">
+        <img class="education-entry__logo" src="/images/pknu_symbol.png" alt="Pukyong National University logo" />
+      </div>
+      <div class="education-entry__body">
+        <p class="education-entry__degree"><strong><em>B.S.</em></strong> in Dept. of Electronic Engineering, Pukyong National University, Busan, South Korea</p>
+        <ul>
+          <li>Advisor: <strong>Hanhoon Park (IVC Lab)</strong></li>
+          <li>Period: Mar. 2018 - Feb. 2022.</li>
+        </ul>
+      </div>
+    </div>
   </li>
 </ul>
 
