@@ -104,14 +104,31 @@
   .bio-block {
     width: 80%;
     margin: 0 0 1.5em;
-    padding: 1em 1.25em;
+    padding: calc(1em * 2 / 3) calc(1.25em * 2 / 3);
     border: 1px solid #000;
     border-radius: $border-radius;
     background-color: var(--global-bg-color);
 
+    html[data-theme="dark"] & {
+      border-color: #fff;
+    }
+
     p {
       text-indent: $indent-var;
       margin-bottom: 0;
+    }
+  }
+
+  #research-interests + ul {
+    margin: 0.25em 0 1.5em;
+    padding-left: 1.5em;
+
+    li {
+      margin-bottom: 0.25em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
