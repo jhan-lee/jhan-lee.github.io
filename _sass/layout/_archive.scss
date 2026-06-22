@@ -103,6 +103,27 @@
   }
 }
 
+.activity-entry__details {
+  margin: 0.15em 0 0 1.5em;
+  padding: 0;
+  list-style-type: disc;
+  list-style-position: outside;
+
+  > li {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
+
+    &::marker {
+      font-size: 0.85em;
+    }
+  }
+}
+
+.activity-entry__period {
+  font-style: italic;
+}
+
 .archive__item-publication,
 .archive__item-project {
   margin: 0 0 1.25em;

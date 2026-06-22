@@ -11,4 +11,12 @@
   {% assign line_html = line_html | replace: part, bold_part %}
 {% endfor %}
 
-<li class="activity-entry">{{ line_html }}</li>
+<li class="activity-entry">
+  <span class="activity-entry__description">{{ line_html }}</span>
+  <ul class="activity-entry__details">
+    {% if post.institution %}
+      <li class="activity-entry__institution">{{ post.institution }}</li>
+    {% endif %}
+    <li><em class="activity-entry__period">{{ post.period }}</em></li>
+  </ul>
+</li>
