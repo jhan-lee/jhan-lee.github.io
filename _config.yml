@@ -90,7 +90,7 @@ publication_category:
   international:
     title: 'International'
 
-# CV categories (used on the CV page only; not shown on Publications or Projects)
+# CV categories (used on the Other Activities page only; not shown on Publications or Projects)
 cv_category:
   achievements:
     title: 'Achievements'
@@ -235,6 +235,8 @@ collections:
   publications:
     output: false
   portfolio:
+    output: false
+  achievements:
     output: false
   talks:
     output: true

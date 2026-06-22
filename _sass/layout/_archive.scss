@@ -75,6 +75,58 @@
   margin-left: 1.25em;
 }
 
+.achievements {
+  margin: 0 0 1.5em;
+}
+
+.achievement-entry {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 1em;
+  margin-bottom: 1.25em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include breakpoint(max-width $small) {
+    flex-direction: column;
+  }
+}
+
+.achievement-entry__image-wrap {
+  flex: 0 0 42%;
+  max-width: 22rem;
+  aspect-ratio: 16 / 9;
+  padding: 2px;
+  border: 1px solid #000;
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  html[data-theme="dark"] & {
+    border-color: #fff;
+  }
+}
+
+.achievement-entry__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.achievement-entry__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.achievement-entry__title {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
 .archive__item-publication,
 .archive__item-project {
   margin: 0 0 1.25em;
