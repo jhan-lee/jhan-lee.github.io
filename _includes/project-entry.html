@@ -18,15 +18,15 @@
   {% endif %}
   {% assign period_text = start_display | append: ' - ' | append: end_display %}
 {% else %}
-  {% assign period_text = start_display | append: ' - Present' %}
+  {% assign period_text = start_display | append: ' - <em>Present</em>' %}
 {% endif %}
 
 {% if post.org_abbr != blank %}
   {% capture org_text %}{{ post.organization }} (<strong>{{ post.org_abbr }}</strong>){% endcapture %}
 {% else %}
-  {% assign org_text = post.organization %}
+  {% capture org_text %}<strong>{{ post.organization }}</strong>{% endcapture %}
 {% endif %}
 
 <div class="project__title">{{ post.title }}{% if post.role != blank %} <span class="project__role">({{ post.role }})</span>{% endif %}</div>
-<p class="project__organization">Institution: {{ org_text }}</p>
-<p class="project__period">Period: {{ period_text }}</p>
+<p class="project__organization"><strong>Institution:</strong> {{ org_text }}</p>
+<p class="project__period"><strong>Period:</strong> {{ period_text }}</p>
