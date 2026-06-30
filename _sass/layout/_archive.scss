@@ -129,6 +129,20 @@
   line-height: 1.5;
 }
 
+%filled-circle-bullet-item {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0.15em 0 0 1.5em;
+  padding-left: 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+
+  &::marker {
+    font-size: 0.85em;
+  }
+}
+
 .archive__item-publication {
   .publication__title {
     margin: 0 0 0.15em;
@@ -148,10 +162,7 @@
 
   .publication__authors,
   .publication__venue {
-    margin: 0.15em 0 0;
-    padding-left: 0.75em;
-    font-size: 1em;
-    line-height: 1.45;
+    @extend %filled-circle-bullet-item;
   }
 }
 
@@ -170,10 +181,7 @@
 
   .project__organization,
   .project__period {
-    margin: 0.15em 0 0;
-    padding-left: 0.75em;
-    font-size: 1em;
-    line-height: 1.45;
+    @extend %filled-circle-bullet-item;
   }
 }
 

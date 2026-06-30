@@ -32,8 +32,8 @@ Education
     <div class="education-entry__content">
       <p class="education-entry__degree"><strong><em>M.S.</em></strong> in Dept. of Information Convergence Engineering, Pusan National University, Busan, South Korea</p>
       <ul class="education-entry__details">
-        <li>Advisor: <strong>Sangryul Jeon (PNU CVLab)</strong></li>
-        <li>Period: Mar. 2025 - <em>Present</em></li>
+        <li><strong>Advisor:</strong> <strong>Sangryul Jeon (PNU CVLab)</strong></li>
+        <li><strong>Period:</strong> Mar. 2025 - <em>Present</em></li>
       </ul>
     </div>
   </div>
@@ -44,8 +44,8 @@ Education
     <div class="education-entry__content">
       <p class="education-entry__degree"><strong><em>B.S.</em></strong> in Dept. of Electronic Engineering, Pukyong National University, Busan, South Korea</p>
       <ul class="education-entry__details">
-        <li>Advisor: <strong>Hanhoon Park (IVC Lab)</strong></li>
-        <li>Period: Mar. 2018 - Feb. 2022.</li>
+        <li><strong>Advisor:</strong> <strong>Hanhoon Park (IVC Lab)</strong></li>
+        <li><strong>Period:</strong> Mar. 2018 - Feb. 2022.</li>
       </ul>
     </div>
   </div>
@@ -62,8 +62,8 @@ Work Experience
     <div class="work-experience-entry__content">
       <p class="work-experience-entry__title"><strong><em>Research Intern at PNU CVLab, Pusan National University</em></strong>, Busan, South Korea.</p>
       <ul class="work-experience-entry__details">
-        <li>Advisor: <strong>Prof. Sangryul Jeon</strong></li>
-        <li>Period: Oct. 2024 - Feb. 2025.</li>
+        <li><strong>Advisor:</strong> <strong>Prof. Sangryul Jeon</strong></li>
+        <li><strong>Period:</strong> Oct. 2024 - Feb. 2025.</li>
       </ul>
     </div>
   </div>
@@ -75,7 +75,7 @@ Work Experience
       <p class="work-experience-entry__title"><strong><em>Research Intern at Intelligent Robotics Laboratory, University of Birmingham</em></strong>, Birmingham, UK.</p>
       <ul class="work-experience-entry__details">
         <li>Host: <strong>Prof. Hyung-Jin Chang</strong></li>
-        <li>Period: Jul. 2024 - Aug. 2024.</li>
+        <li><strong>Period:</strong> Jul. 2024 - Aug. 2024.</li>
       </ul>
     </div>
   </div>
@@ -87,7 +87,7 @@ Work Experience
       <p class="work-experience-entry__title"><em>Get discharged as</em> <strong><em>Naval Officer (LTJG) at Naval Education and Training Command</em></strong>, South Korea.</p>
       <ul class="work-experience-entry__details">
         <li>MOS: <strong>Signal (N-ROTC 67th)</strong></li>
-        <li>Period: Jan. 2020 - Feb. 2024.</li>
+        <li><strong>Period:</strong> Jan. 2020 - Feb. 2024.</li>
       </ul>
     </div>
   </div>
