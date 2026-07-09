@@ -23,7 +23,7 @@ repository               : "jhan-lee/jhan-lee.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile(1).jpg"
   name             : "Jeonghan Lee"
   pronouns         : # example: "she/her"  
   bio              : "M.S. Student at PNU CVLab"
