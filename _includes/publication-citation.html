@@ -19,10 +19,20 @@
   {% endif %}
 </div>
 <p class="publication__authors">{{ authors_html }}</p>
-{% if post.venue_type == 'proceedings' %}
-  {% capture venue_text %}Proceedings of {{ post.venue }} (<strong>{{ post.venue_abbr }}</strong>){% endcapture %}
+{% if post.venue_abbr %}
+  {% capture venue_text %}<em>{{ post.venue }} ({{ post.venue_abbr }})</em>{% endcapture %}
 {% else %}
-  {% capture venue_text %}{{ post.venue }} (<strong>{{ post.venue_abbr }}</strong>){% endcapture %}
+  {% capture venue_text %}<em>{{ post.venue }}</em>{% endcapture %}
+{% endif %}
+{% assign venue_details = '' %}
+{% if post.volume %}
+  {% assign venue_details = venue_details | append: ', vol. ' | append: post.volume %}
+{% endif %}
+{% if post.number %}
+  {% assign venue_details = venue_details | append: ', no. ' | append: post.number %}
+{% endif %}
+{% if post.pages %}
+  {% assign venue_details = venue_details | append: ', pp. ' | append: post.pages %}
 {% endif %}
 {% assign month = post.date | date: "%b" %}
 {% assign year = post.date | date: "%Y" %}
@@ -31,4 +41,4 @@
 {% else %}
   {% assign month_year = month | append: '. ' | append: year %}
 {% endif %}
-<p class="publication__venue">{{ venue_text }}, {{ month_year }}</p>
+<p class="publication__venue">{{ venue_text }}{{ venue_details }}, {{ month_year }}</p>
