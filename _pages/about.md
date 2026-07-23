@@ -60,7 +60,7 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/symbols/pnu_symbol.png' | relative_url }}" alt="Pusan National University logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title">Research Intern, <strong>PNU CVLab, Pusan National University</strong>, Busan, South Korea.</p>
+      <p class="work-experience-entry__title"><strong><em>Research Intern</em></strong>, <strong>PNU CVLab (Pusan National University)</strong>, Busan, South Korea.</p>
       <ul class="work-experience-entry__details">
         <li><strong>Advisor:</strong> <strong>Prof. Sangryul Jeon</strong></li>
         <li><strong>Period:</strong> Oct. 2024 – Feb. 2025.</li>
@@ -72,7 +72,7 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/symbols/uob_symbol.png' | relative_url }}" alt="University of Birmingham logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title">Research Intern, <strong>Intelligent Robotics Lab, University of Birmingham</strong>, Birmingham, UK.</p>
+      <p class="work-experience-entry__title"><strong><em>Research Intern</em></strong>, <strong>Intelligent Robotics Lab (University of Birmingham)</strong>, Birmingham, UK.</p>
       <ul class="work-experience-entry__details">
         <li>Host: <strong>Prof. Hyung-Jin Chang</strong></li>
         <li><strong>Period:</strong> Jul. 2024 – Aug. 2024.</li>
@@ -84,7 +84,7 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/symbols/navy_symbol.png' | relative_url }}" alt="Republic of Korea Navy logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title">Naval Officer (LTJG), <strong>Naval Education and Training Command, ROK Navy</strong>, Changwon, South Korea.</p>
+      <p class="work-experience-entry__title"><strong><em>Naval Officer (LTJG)</em></strong>, <strong>Naval Education and Training Command (ROK Navy)</strong>, Changwon, South Korea.</p>
       <ul class="work-experience-entry__details">
         <li>MOS: <strong>Signal</strong> | Commission: <strong>67th N-ROTC</strong></li>
         <li><strong>Period:</strong> Jan. 2020 – Feb. 2024.</li>
