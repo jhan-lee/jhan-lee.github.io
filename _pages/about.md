@@ -60,10 +60,10 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/symbols/pnu_symbol.png' | relative_url }}" alt="Pusan National University logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title"><strong><em>Research Intern at PNU CVLab, Pusan National University</em></strong>, Busan, South Korea.</p>
+      <p class="work-experience-entry__title"><strong><em>Research Intern, PNU CVLab, Pusan National University</em></strong>, Busan, South Korea.</p>
       <ul class="work-experience-entry__details">
         <li><strong>Advisor:</strong> <strong>Prof. Sangryul Jeon</strong></li>
-        <li><strong>Period:</strong> Oct. 2024 - Feb. 2025.</li>
+        <li><strong>Period:</strong> Oct. 2024 – Feb. 2025.</li>
       </ul>
     </div>
   </div>
@@ -72,10 +72,10 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/symbols/uob_symbol.png' | relative_url }}" alt="University of Birmingham logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title"><strong><em>Research Intern at Intelligent Robotics Laboratory, University of Birmingham</em></strong>, Birmingham, UK.</p>
+      <p class="work-experience-entry__title"><strong><em>Research Intern, Intelligent Robotics Lab, University of Birmingham</em></strong>, Birmingham, UK.</p>
       <ul class="work-experience-entry__details">
         <li>Host: <strong>Prof. Hyung-Jin Chang</strong></li>
-        <li><strong>Period:</strong> Jul. 2024 - Aug. 2024.</li>
+        <li><strong>Period:</strong> Jul. 2024 – Aug. 2024.</li>
       </ul>
     </div>
   </div>
@@ -84,10 +84,10 @@ Work Experience
       <img class="work-experience-entry__logo" src="{{ '/images/symbols/navy_symbol.png' | relative_url }}" alt="Republic of Korea Navy logo" />
     </div>
     <div class="work-experience-entry__content">
-      <p class="work-experience-entry__title"><em>Get discharged as</em> <strong><em>Naval Officer (LTJG) at Naval Education and Training Command</em></strong>, South Korea.</p>
+      <p class="work-experience-entry__title"><strong><em>Naval Officer (LTJG), Naval Education and Training Command</em></strong>, Changwon, South Korea.</p>
       <ul class="work-experience-entry__details">
-        <li>MOS: <strong>Signal (N-ROTC 67th)</strong></li>
-        <li><strong>Period:</strong> Jan. 2020 - Feb. 2024.</li>
+        <li>MOS: <strong>Signal</strong> | Commission: <strong>67th N-ROTC</strong></li>
+        <li><strong>Period:</strong> Jan. 2020 – Feb. 2024.</li>
       </ul>
     </div>
   </div>
