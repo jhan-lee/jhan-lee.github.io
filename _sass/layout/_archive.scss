@@ -180,7 +180,8 @@
   }
 
   .project__organization,
-  .project__period {
+  .project__period,
+  .project__contribution {
     @extend %filled-circle-bullet-item;
   }
 }

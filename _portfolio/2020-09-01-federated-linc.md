@@ -6,4 +6,5 @@ date: 2020-09-01
 date_end: 2021-06-01
 organization: "Leaders in Industry-university Cooperation"
 org_abbr: "LINC"
+contribution: "Radar Dataset Construction, Overall Pipeline Development"
 ---

@@ -5,4 +5,5 @@ permalink: /portfolio/2025-09-01-saram-h-pnuyh
 date: 2025-09-01
 organization: "Pusan National University Yangsan Hospital"
 org_abbr: "PNUYH"
+contribution: "Bleeding Tracking Algorithm Development, ROS2 Perception Extension, Dataset Curation"
 ---

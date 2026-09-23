@@ -22,7 +22,7 @@
 {% endif %}
 
 {% if post.org_abbr != blank %}
-  {% capture org_text %}{{ post.organization }} (<strong>{{ post.org_abbr }}</strong>){% endcapture %}
+  {% capture org_text %}<strong>{{ post.org_abbr }}</strong> ({{ post.organization }}){% endcapture %}
 {% else %}
   {% capture org_text %}<strong>{{ post.organization }}</strong>{% endcapture %}
 {% endif %}
@@ -30,3 +30,6 @@
 <div class="project__title">{{ post.title }}{% if post.role != blank %} <span class="project__role">({{ post.role }})</span>{% endif %}</div>
 <p class="project__organization"><strong>Institution:</strong> {{ org_text }}</p>
 <p class="project__period"><strong>Period:</strong> {{ period_text }}</p>
+{% if post.contribution != blank %}
+<p class="project__contribution"><strong>Contribution:</strong> {{ post.contribution }}</p>
+{% endif %}
