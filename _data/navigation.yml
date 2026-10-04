@@ -11,5 +11,8 @@ main:
   - title: "Projects"
     url: /portfolio/
 
+  - title: "Thesis"
+    url: /thesis/
+
   - title: "Other Activities"
     url: /other-activities/
