@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Master's Thesis"
+title: "Thesis"
 permalink: /thesis/
 author_profile: true
 hide_title: true
