@@ -10,7 +10,7 @@ hide_title: true
 
 Thesis for the degree of Master of Science
 
-# A Vision-Language Model-Based Approach to 3D Instance Recognition without Predefined Class Queries
+# A Query-Free Approach to 3D Instance Recognition Using Vision-Language Models
 
 **Jeonghan Lee**  
 Department of Information Convergence Engineering  
