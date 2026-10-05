@@ -24,7 +24,7 @@ Pusan National University
 ## Overview
 
 Existing open-vocabulary 3D recognition methods can recognize object categories beyond those defined during training, but often still require users to specify target classes in advance at inference time. This thesis investigates open-ended 3D recognition for inferring the semantic identities of 3D instances without predefined class queries. The proposed approach leverages visual and semantic information from vision-language models together with 3D instance representations to perform instance-level recognition. Experiments on indoor 3D datasets evaluate the recognition performance and applicability of the proposed approach under diverse conditions.
-{: style="text-indent: 1.5em"}
+{: style="text-indent: 0.75em"}
 
 ## Research
 
