@@ -8,13 +8,16 @@ hide_title: true
 
 <div class="text-center" markdown="1">
 
-# 사전 클래스 질의 없는 3차원 인스턴스 인식을 위한 비전-언어 모델 활용 방법
+Thesis for the degree of Master of Science
 
-### A Vision-Language Model-Based Approach to 3D Instance Recognition without Predefined Class Queries
+# A Vision-Language Model-Based Approach to 3D Instance Recognition without Predefined Class Queries
 
 **Jeonghan Lee**  
 Department of Information Convergence Engineering  
+The Graduate School  
 Pusan National University
+
+February 2027
 
 </div>
 
