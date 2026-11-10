@@ -41,4 +41,4 @@
 {% else %}
   {% assign month_year = month | append: '. ' | append: year %}
 {% endif %}
-<p class="publication__venue">{{ venue_text }}{{ venue_details }}, {{ month_year }}</p>
+<p class="publication__venue">{{ venue_text }}{{ venue_details }}, {{ month_year }}{% if post.status != blank %} ({{ post.status }}){% endif %}</p>

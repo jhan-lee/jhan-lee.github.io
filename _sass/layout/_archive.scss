@@ -107,6 +107,16 @@
   font-weight: normal;
 }
 
+.achievement-entry__note {
+  margin: 0.15em 0 0;
+  padding-left: 1.5em;
+  list-style-type: disc;
+
+  > li {
+    list-style-type: disc;
+  }
+}
+
 .activity-entry__details {
   margin: 0.15em 0 0 1em;
   padding: 0;
