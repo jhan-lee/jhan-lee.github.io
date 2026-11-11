@@ -1,7 +1,8 @@
+{% include base_path %}
 {% assign post = include.post %}
 
 <li class="achievement-entry"><strong>{{ post.award }}</strong> {{ post.detail }}{% if post.role != blank %} <span class="achievement-entry__role">({{ post.role }})</span>{% endif %}.
 {% if post.note != blank %}
-<div class="achievement-entry__note">Topic: <em>{{ post.note }}</em></div>
+<div class="achievement-entry__note">Topic: <em>{{ post.note }}</em>{% if post.link_url != blank %} [<a href="{{ post.link_url | prepend: base_path }}" target="_blank" rel="noopener noreferrer">{{ post.link_label }}</a>]{% endif %}</div>
 {% endif %}
 </li>
